@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Staatliches&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial,sans-serif;
+	box-sizing: border-box;
+}
+.body-cv {
+	background: #ccc;
+}
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #D3BAC5;
+	border-radius: 15px;
+	padding: 15px;
+}
+.banner h1 {
+	font-family: font-family: 'Staatliches', cursive;
+	font-size: 1.8rem;
+	color: #000;
+}
+.banner h5 {
+	border-bottom: solid black;
+	padding: 10px;
+}
+.banner span {
+	font-family: 'Staatliches', cursive;
+	background: rgba(1, 151, 145, 0.5);
+	padding: 2px;color: #fff;
+}
+.photo-et-intro {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2% ;
+	padding: 10px;
+}
+.photo-et-intro .photo {
+	padding: 10px;
+}
+.photo-et-intro img {
+	width: 120px;
+	margin-top: -40px;
+}
+.photo-et-intro p {
+	font-size: 1.1rem;
+	font-family: 'Lobster', cursive;
+}
+.cv-column {
+	flex-direction: 55%;
+	max-width: 85%;
+	padding: 0 4px;
+}
+.cv-row {
+	width: 80%;
+	margin: 20px auto;
+	justify-content: center;
+	align-items: center;
+	padding: 0 4px;margin-top: -40px}
+.cv-row .cv-column {
+	display: block;
+	position: relative;
+	padding: 30px;
+	font-size: 1.1rem;
+
+
+}
+.cv-column div {
+	display: block;
+	position: relative;border-radius:20px;width: 135% ;
+}
+.cv-column :hover{
+	transform: scale(0.95);
+}
+.cv-column div {
+
+	/*flex-direction: column;*/
+}
+.cv-column div h6{
+	background: #000;
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.2rem;
+}
+.cv-column div  span{
+	background: rgba(1, 151, 145, 0.5);
+	padding: 2px;
+}
+.cv-column div h6 p {
+		font-family: cursive;
+}
+.cv-column div p{
+	font-family: cursive;
+}
+/*
+
+h1{
+	height: 50px;
+	text-transform: capitalize;
+	margin: 15px 0px 0px 0px; 
+}
+body{
+	height: 1025px;
+	font-family: cursive;
+}
+header{
+	height: 15%;
+	margin: 1.5% 0.01% 19px 0.01%;
+	background-color: #D3BAC5;
+}
+aside{
+	float: right;
+	border-left: 2px solid black;
+	width: 70%;
+	height: 65%;
+	margin: 0px 0.01% 0px 0px;
+	padding: 0px 0px 0px 15px;
+}
+section{
+	width: 30%;
+	height: 65%;
+	margin: 0px 0px 10px 1px;
+}
+
+.title{
+	border-bottom: 2px solid black;
+	height: 100px;
+	width: 500px;
+	margin: 0px 0px 0px 35%;
+	padding: 5px 0px 0px 0px;
+}
+.image{
+	width: 150px;
+	height: 180px;
+	margin: -70px 0px 0px 8%;
+}
+.divsec{
+	border: 1px solid black;
+	height: 20px;
+	width: 200px;
+	margin: 0px 0px 0px 100px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.divsec1{
+	border: 1px solid black;
+	height: 20px;
+	width: 200px;
+	margin: 80px 0px 0px 100px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.divas{
+	border: 1px solid black;
+	height: 20px;
+	width: 600px;
+	background-color: black;
+	color: white;
+	margin: 0px 0px 0px 70px;
+}
+.parasec1{
+	width: 250px;
+	height: 270px;
+	margin: 0px 0px 0px 100px;
+	padding: 5px 0px 0px 25px
+}
+.parasec{
+	width: 270px;
+	height: 210px;
+	margin: 0px 0px 0px 100px;
+	padding: 5px 0px 0px 25px
+}
+.divdateposte{
+	height: 250px;
+	width: 600px;
+}
+.paraside1{
+	height: 80px;
+	width: 600px;
+}
+.pdate{
+	height: 70px;
+	width: 100px;
+	opacity: 60%;
+}
+.pposte{
+	height: 200px;
+	width: 470px;
+	float: right;
+}
+.svgdip{
+	height: 35px;
+	width: 35px;
+	margin: -25px 0px 0px 20px;
+}
+.svgenv{
+	height: 25px;
+	width: 25px;
+	margin: 5px 0px 0px 0px;
+}*/
