@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 .body-cv {
-	background: #ccc;
+	/*background: #ccc;*/
 }
 .banner {
 	display: flex;
@@ -26,6 +26,7 @@
 .banner h5 {
 	border-bottom: solid black;
 	padding: 10px;
+	font-family: 'Lobster', cursive;
 }
 .banner span {
 	font-family: 'Staatliches', cursive;
@@ -37,6 +38,7 @@
 	flex-direction: row;
 	margin-left: 2% ;
 	padding: 10px;
+	border-bottom: 2px solid black;
 }
 .photo-et-intro .photo {
 	padding: 10px;
@@ -49,52 +51,66 @@
 	font-size: 1.1rem;
 	font-family: 'Lobster', cursive;
 }
-.cv-column {
-	flex-direction: 55%;
-	max-width: 85%;
-	padding: 0 4px;
-}
+
 .cv-row {
-	width: 80%;
+	width: 100%;
 	margin: 20px auto;
-	justify-content: center;
-	align-items: center;
-	padding: 0 4px;margin-top: -40px}
-.cv-row .cv-column {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px 4px;
+}
+.cv-column {
+	flex-direction: 25%;
+	max-width: 45%;
+	padding: 0 20px;
+}
+.cv-column div{
 	display: block;
 	position: relative;
-	padding: 30px;
-	font-size: 1.1rem;
-
-
+	padding-top: 20px;
 }
-.cv-column div {
-	display: block;
-	position: relative;border-radius:20px;width: 135% ;
-}
-.cv-column :hover{
+.cv-column div:hover{
 	transform: scale(0.95);
-}
-.cv-column div {
-
-	/*flex-direction: column;*/
 }
 .cv-column div h6{
 	background: #000;
 	color: #fff;
 	font-family: 'Lobster', cursive;
 	letter-spacing: 0.2rem;
+	border-radius: 10px;
+	text-align:center;
 }
 .cv-column div  span{
 	background: rgba(1, 151, 145, 0.5);
 	padding: 2px;
 }
-.cv-column div h6 p {
-		font-family: cursive;
-}
-.cv-column div p{
+.cv-column div span,p {
 	font-family: cursive;
+	font-size: 0.9rem;
 }
+
+@media screen and (max-width: 900px){
+	.cv-column {
+		flex: 50%;
+		max-width: 50%;
+		padding-top: 20px;
+	}
+	.row,.cv-column div{
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.cv-column {
+		flex: 100%;
+		max-width: 100%;
+		padding-top: 20px;
+	}
+	.row,.cv-column div{
+		padding-top: 20px;
+	}
+}
+
 /*
 
 h1{
